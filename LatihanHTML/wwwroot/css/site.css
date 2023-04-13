@@ -1,0 +1,205 @@
+body {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* BIG HEADER */
+.big-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* CONTAINER */
+.container-fluid {
+    padding: 3% 15% 25%;
+}
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 30%;
+    text-align: left;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+}
+
+.nav-top {
+    padding-bottom: 50px;
+}
+
+.col-lg-6 {
+    padding-top: 30px;
+    position: relative;
+}
+
+.nav-item {
+    font-size: 1.1rem;
+    padding: 0 15px;
+}
+
+.button {
+    margin: 5px;
+}
+
+.img {
+    transform: rotate(30deg);
+    width: 65%;
+    position: absolute;
+    right: 30px;
+}
+
+/* FEATURES */
+#features {
+    position: relative;
+    top: -10.9375rem;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.row2 {
+    margin: 0 0 -50px;
+    padding: 100px 200px 0;
+}
+
+.col-lg-4 {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5%;
+}
+
+.logo2 {
+    color: #ef8172;
+    font-size: 3.5rem;
+    padding: 20px;
+    transition: color 0s;
+}
+
+    .logo2:hover {
+        color: #ff4c68;
+    }
+
+/* TESTIMONIALS */
+#testimonials {
+    background-color: #ef8172;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.carousel-item {
+    padding: 3% 15%;
+}
+
+.left-button {
+    margin-right: 50px;
+}
+
+.dog-pic {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* PRESS */
+#press {
+    background-color: #ef8172;
+    padding-bottom: : 3%;
+}
+
+.press-pic {
+    width: 15%;
+    margin: 20px 20px 50px;
+    padding-top: 5%;
+}
+
+/* PRICING */
+#pricing {
+    padding: 5%;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.h2-pricing {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 5% 2%;
+}
+
+.card {
+    padding: 50px;
+}
+
+@media (max-width: 993px) {
+    #title {
+        text-align: center;
+    }
+
+    .container-fluid {
+        padding-bottom: 12.5rem;
+    }
+
+    .img {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* FOOTER SECTION */
+#cta {
+    padding: 10% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.footer-btn {
+    margin: 5% 1%;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 10% 15% 5%;
+}
+
+.mini-logo {
+    color: black;
+    margin: 10px 20px 50px;
+    font-size: 1.1rem;
+}
+
+.footer-p {
+    color: grey;
+    padding-top: 50px;
+    font-size: 1.1rem;
+}
